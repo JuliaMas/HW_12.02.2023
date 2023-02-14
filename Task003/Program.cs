@@ -61,7 +61,8 @@ void Delete(int[,] matrix, int[,] PossitioSmallEl, int[,] newMatrix)
     }
 }
 
-
+Console.Write("Введите количество строк маттрицы n: ");
+int n = int.Parse(Console.ReadLine() ?? "");
 
 Console.Write("Введите количество столбцов маттрицы m: ");
 int m = int.Parse(Console.ReadLine() ?? "");
